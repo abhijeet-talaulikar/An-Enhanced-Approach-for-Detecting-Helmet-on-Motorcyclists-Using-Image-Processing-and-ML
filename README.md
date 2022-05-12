@@ -1,4 +1,4 @@
-# An Enhanced Approach for Detecting Helmet on Motorcyclists Using Image Processing and Machine Learning Techniques
+## An Enhanced Approach for Detecting Helmet on Motorcyclists Using Image Processing and Machine Learning Techniques
 
 In this project, we propose a 3-step method to identify motorcyclists who are not wearing helmets using computer vision. This automates traffic monitoring in populated Indian and South Asian cities with large number of two-wheelers.. This approach takes video feed from the surveillance camera deployed at roads and applies a background subtraction technique to identify moving vehicles. From the foreground blobs, different features are extracted to identify motorcycles among the other vehicles. From the motorcycle objects, the head region of the blob is considered to extract helmet-related features. For the performance and accuracy improvement, we apply principal component analysis (PCA) on the derived features. To detect helmet from the motorcycle object, we apply different machine learning techniques on the selected features and perform the feasibility analysis.
 
